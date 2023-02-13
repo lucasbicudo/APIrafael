@@ -1,5 +1,5 @@
 import express from "express";
-import getData from "../controllers/controller.js";
+import getJson from "../controllers/controller.js";
 const app = express();
 
 app.use(express.json());
