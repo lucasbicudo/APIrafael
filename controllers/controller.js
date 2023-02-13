@@ -1,6 +1,6 @@
 import https from "https";
 
-async function getData() {
+async function getJson() {
   return new Promise((resolve, reject) => {
     https.get("https://jsonplaceholder.typicode.com/users", (res) => {
       res.setEncoding("utf8");
@@ -29,4 +29,4 @@ async function getData() {
   });
 }
 
-export default getData;
+export default getJson;

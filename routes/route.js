@@ -6,7 +6,7 @@ app.use(express.json());
 
 // aqui irao ficar as rotas
 app.get("/users", (req, res) => {
-  getData()
+  getJson()
     .then((data) => {
       res.json(data);
     })
